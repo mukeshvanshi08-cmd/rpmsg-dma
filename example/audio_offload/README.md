@@ -90,3 +90,10 @@ AUDIO_LOGGING_ENABLE: 1 to save raw audio data to file(/tmp/wave_xx_ch0.txt)
 ```
 Refer: https://github.com/TexasInstruments/rpmsg-dma/blob/REL.11.01/example/audio_offload/host%20utility/README
 ```
+
+## Live capture and RTP migration
+```
+For step-by-step guidance to move from WAV input to live LINE-IN capture
+and later RTP/SIP media ingest, see:
+example/audio_offload/LIVE_CAPTURE_RTP_GUIDE.md
+```
